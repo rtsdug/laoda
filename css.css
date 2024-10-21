@@ -1,0 +1,8 @@
+body{
+    background-color: gainsboro;
+    a{text-decoration: none;}
+    a:hover{text-decoration: underline;color: darkgoldenrod;}
+    a{color: royalblue;}
+    .aaa {text-align: center;}
+    #bbb{color: rgb(36, 142, 188);}
+}
