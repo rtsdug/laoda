@@ -2,17 +2,58 @@
     <head>
         <title>首页</title>
         <link rel="stylesheet" href="css.css">
+        <style>
+            caption{font: 30px 楷体; text-align: left;}
+            table {border-top: 2px solid rgb(36, 142, 188);border-bottom: 2px solid rgb(36, 142, 188);}
+            
+        </style>
+        <script>
+            var aa = 0; 
+            function a() {
+                aa++
+                document.getElementById("xxcc").innerHTML = aa;
+                
+                b();
+            };
+            function b() {
+            if (aa==1) {
+                    alert("你点我干嘛φ(゜▽゜*)♪");
+                }
+                if (aa==5) {
+                    alert("你不要再点了！(●ˇ∀ˇ●)");
+                }
+                if (aa==10) {
+                    alert("要爆炸了！ヾ(≧▽≦*)o");
+                }
+                if(aa==15){
+                    alert("算了你的点吧去~~~///(^v^)\\\~~~");
+                }
+                if (aa==20) {
+                    alert("点到2000有惊喜( •̀ ω •́ )✧");
+                }
+                if(aa==2000){
+                    alert("不是你真点到2000*^____^*");
+                    alert("逗你玩的没有惊喜o(*^▽^*)┛");
+                    alert("你来打我呀哈哈哈哈哈哈哈(≧∇≦)ﾉ");
+                    aa=0
+                }
+            }
+        </script>
     </head>
     <body>
-        <h4>我最近更新了我的世界页面快去看看</h4>
         <hr width="300">
         <h1 id="bbb" class="aaa">你好！</h1>
         <hr width="300">
         <p class="aaa"><a href="我的世界\index.html">1我的世界</a>&ensp;|&ensp;<a href="游戏/index.html">2游戏</a>&ensp;|&ensp;<a href="维护/index.html">3其他</a>|&ensp;<a href="魔法/index.html">4魔法</a></p>
+        <table >
+            <tr><th>2024.11.10</th>&ensp;<th>此页面创建</th></tr>
+            <tr><th>2024.12.2</th>&ensp;<th>我的世界页面完成</th></tr>
+            <tr><th>2025.1.11</th>&ensp;<th>新增魔法页面</th></tr>
+        </table >
         <h1>作者：<a href="https://space.bilibili.com/3493289210677298">ttertterttertter</a></h1>
         <h1>联系作者:jltxrzrs99@qq.com</h1>
         <h2>wx:zoujunrui2012</h2>
-        <img src="图片/无标题.png" alt="我裂开了！">
-        
+        <a href="https://space.bilibili.com/3493289210677298"><img src="图片/无标题.png" alt="我裂开了！"></a>
+            <button onclick="a();" type="button"><p id="xxcc">0</p></button>
     </body>
 </html>
