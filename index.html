@@ -6,6 +6,53 @@
         <style>
             caption{font: 30px 楷体; text-align: left;}
             table {border-top: 2px solid rgb(36, 142, 188);border-bottom: 2px solid rgb(36, 142, 188);}
+              .deprecation-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 12px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+        
+   .deprecation-message {
+      margin-right: 15px;
+    }
+        
+    .deprecation-link {
+      color: #0066cc;
+      text-decoration: underline;
+      margin: 0 5px;
+      font-weight: bold;
+    }
+        
+    .deprecation-link:hover {
+      color: #004499;
+    }
+        
+    .close-btn {
+      background: none;
+      border: none;
+      color: #666;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 0 10px;
+      margin-left: 15px;
+    }
+        
+    .close-btn:hover {
+      color: #333;
+    }
+}
         </style>
         <script>
             var aa = 0; 
